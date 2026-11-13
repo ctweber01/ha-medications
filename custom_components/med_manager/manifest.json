@@ -1,0 +1,25 @@
+{
+  "domain": "med_manager",
+  "name": "Medications",
+  "after_dependencies": [
+    "mobile_app",
+    "person"
+  ],
+  "codeowners": [
+    "@ctweber01"
+  ],
+  "config_flow": true,
+  "dependencies": [
+    "frontend",
+    "http",
+    "panel_custom",
+    "websocket_api"
+  ],
+  "documentation": "https://github.com/ctweber01/ha-medications",
+  "integration_type": "service",
+  "iot_class": "local_push",
+  "issue_tracker": "https://github.com/ctweber01/ha-medications/issues",
+  "requirements": [],
+  "single_config_entry": true,
+  "version": "0.2.0"
+}

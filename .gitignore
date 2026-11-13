@@ -1,0 +1,6 @@
+# Developer helpers (they hold a local Home Assistant address / read a token file) — never published
+tools/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
