@@ -70,6 +70,12 @@ Everything stays in your Home Assistant. Nothing is sent anywhere except: the ph
 search words and home area to OpenStreetMap / the US NPI registry, and the *Look up* links open those websites.
 Passwords are never stored — *Open account login* opens your pharmacy's page for your password manager.
 
+## Support
+
+If Medications is useful to you, you can support its development:
+
+[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/chrisweber)
+
 ## Not a medical device
 
 This is a convenience tool, not a medical device. Phones, networks and Home Assistant can fail —

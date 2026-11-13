@@ -1304,6 +1304,8 @@ class MedManagerPanel extends HTMLElement {
           <div><span class="label">GitHub</span>${this._data.about?.repo
             ? `<a href="${esc(this._data.about.repo)}" target="_blank" rel="noopener">${esc(this._data.about.repo.replace(/^https?:\/\//, ""))}</a>`
             : `<span class="muted">not published yet</span>`}</div>
+          ${this._data.about?.support ? `<div><span class="label">Support</span><a href="${esc(this._data.about.support)}" target="_blank" rel="noopener">☕ Buy me a coffee</a>
+            <span class="muted">— if this app helps you, thank you!</span></div>` : ""}
         </div>
       </section>`,
     };
