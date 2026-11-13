@@ -26,25 +26,37 @@ your phone, refill reminders, and your pharmacies — all in its own sidebar pag
 
 ## Install
 
-1. **Add the repository to HACS (Marketplace):**
+1. **Add the repository and download it:**
 
    [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=ctweber01&repository=ha-medications&category=integration)
 
-   Then **Download**, and **restart Home Assistant** when asked.
+   Confirm adding the repository, then click **Download**.
+   - **Home Assistant 2026.11 or newer** (built-in Marketplace): no restart needed, and it usually offers to
+     **set up Medications** straight away — accept, and skip step 2.
+   - **Home Assistant 2026.10** (HACS installed separately): **restart Home Assistant** after the download.
 
-2. **Add the integration:**
+2. **Add the integration** — only if Medications isn't in your sidebar yet:
 
    [![Open your Home Assistant instance and start setting up a new integration.](https://my.home-assistant.io/badges/config_flow_start.svg)](https://my.home-assistant.io/redirect/config_flow_start/?domain=med_manager)
 
-   (or Settings → Devices & services → Add integration → **Medications**)
+   (or Settings → Devices & services → Add integration → **Medications**, then **Submit**)
 
 3. Open **Medications** in the sidebar — the **setup wizard** starts automatically.
 
-<details><summary>Manual install</summary>
+<details><summary>If the button doesn't work</summary>
+
+Open the Marketplace (or HACS) → **⋮** menu → **Custom repositories** → paste
+`https://github.com/ctweber01/ha-medications`, choose type **Integration** → **Add**, then search for
+**Medications** and **Download**. Continue with step 2.
+</details>
+
+<details><summary>Manual install (no HACS)</summary>
 
 Copy `custom_components/med_manager` into your Home Assistant `config/custom_components/` folder,
-restart, then add the integration as in step 2.
+restart Home Assistant, then add the integration as in step 2. Updates are then manual too.
 </details>
+
+Updates appear in the Marketplace / HACS like any other integration.
 
 ## Requirements
 
