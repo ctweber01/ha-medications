@@ -74,7 +74,7 @@ Passwords are never stored — *Open account login* opens your pharmacy's page f
 
 If Medications is useful to you, you can support its development:
 
-[![Buy Me A Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/chrisweber)
+<a href="https://www.buymeacoffee.com/chrisweber"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="36"></a>
 
 ## Not a medical device
 

@@ -19,7 +19,6 @@ from .const import (
     FAKE_ANDROID,
     RELEASE_DATE,
     REPO_URL,
-    SUPPORT_URL,
     VERSION,
     ACTION_PREFIX,
     COLLECTIONS,
@@ -1050,7 +1049,7 @@ class MedManager:
             "medtrack_available": bool(self.hass.config_entries.async_entries("medtrack")),
             "last_test": self.data.get("last_test"),
             "default_settings": DEFAULT_SETTINGS,
-            "about": {"version": VERSION, "date": RELEASE_DATE, "repo": REPO_URL, "support": SUPPORT_URL},
+            "about": {"version": VERSION, "date": RELEASE_DATE, "repo": REPO_URL},
             "platforms": self.platforms(),
             "fake_inbox": self.data.get("fake_inbox", []),
         }

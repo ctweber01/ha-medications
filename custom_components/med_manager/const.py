@@ -3,11 +3,10 @@
 from typing import Final
 
 DOMAIN: Final = "med_manager"
-VERSION: Final = "0.2.1"
+VERSION: Final = "0.2.2"
 RELEASE_DATE: Final = "2026-11-13"
 # Set once the project is on GitHub; shown on Settings > About.
 REPO_URL: Final = "https://github.com/ctweber01/ha-medications"
-SUPPORT_URL: Final = "https://www.buymeacoffee.com/chrisweber"
 
 STORAGE_KEY: Final = "med_manager.data"
 STORAGE_VERSION: Final = 1
